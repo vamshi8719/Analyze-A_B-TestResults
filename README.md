@@ -17,7 +17,11 @@ Regression
 ## A/B Test 
 Null hypothesis: Old page has better conversion  
 
-Alternate hypothesis: New page has better conversion  
+**$p_{old}$** - **$p_{new}$** >=0 
+    
+Alternate hypothesis: New page has better conversion 
+
+**$p_{old}$** - **$p_{new}$** < 0
 
 ## Conclusions
-The large p-value suggests the null hypothesis is true. We can conclude that there is no clear evidence that new page will lead to better conversions. The recommendation, therefore, is to keep the old page.
+The large p-value suggests that the null hypothesis is true. We can conclude that there is no clear evidence that new page will lead to better conversions. The recommendation, therefore, is to keep the old page.
